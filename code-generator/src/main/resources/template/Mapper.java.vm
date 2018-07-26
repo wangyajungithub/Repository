@@ -1,0 +1,16 @@
+package ${package}.${moduleName}.mapper;
+
+import ${package}.${moduleName}.entity.${className}Entity;
+import com.smile.superadmin.utils.MyMapper;
+import org.apache.ibatis.annotations.Mapper;
+/**
+ * ${comments}
+ * 
+ * @author ${author}
+ * @email ${email}
+ * @date ${datetime}
+ */
+@Mapper
+public interface ${className}Mapper extends MyMapper<${className}Entity> {
+	
+}
